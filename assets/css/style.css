@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: NVIDIA-NALA,Arial,Helvetica,Sans-Serif;
+    background-color: #eee;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 108px;
+}
+.nav ul li{
+    padding-left: 30px;
+    font-family: NVIDIA-NALA,Arial,Helvetica,Sans-Serif;
+    font-size: 16px;
+    font-weight: 300;
+    color:rgb(120, 119, 119);
+  
+
+}
+.header{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    background-color:white;
+    z-index: 1;
+    width: 100%;
+}
+.left_nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-right:200px;
+
+}
+.left_nav ul li{
+    padding-left:40px;
+    font-size: 16px;
+    color:rgb(120, 119, 119);
+    font-family: NVIDIA-NALA,Arial,Helvetica,Sans-Serif;
+    
+
+}
+.cont{
+    position: absolute;
+    top: 14%;
+    font-weight: 700;
+    text-align: start;
+    font-size: 30px;
+    line-height: 70px;
+    color: white;
+    
+}
+.cont h2{
+    margin-left: 130px;
+}
+.oc{
+    position: absolute;
+    top: 91%;
+}
+.btn{
+    position: absolute;
+    top:90%;
+    color: white;
+    background-color:#76b900;
+    padding: 13px;
+    font-weight: 600;
+    font-size: 15px;
+    width: 100px;
+
+
+}
+.main{
+    margin-bottom:80px ;
+}
+/* END OF THE NAV */
+
+/* Start of the content */
+.container-2{
+    display: flex;
+    margin-left: 5%;
+    align-content: center;
+    width: 300px;
+    /* box-shadow: 9px 2px 15px 0px rgba(176,176,176,0.83); */
+    margin-bottom: 100px;
+    text-align: start;
+    cursor: pointer;
+
+}
+.row1:hover{
+    transform: scale(1.1);
+}
+h1{
+    margin-bottom: 30px;
+}
+.content{
+    margin-top: 20px;
+    margin-left: 17px;
+    margin-right: 20px;
+    
+}
+.content p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color:rgb(120, 119, 119);
+
+   
+}
+.row1{
+    align-items: center;
+    margin-left: 50px;
+    box-shadow: 9px 2px 15px 0px rgba(176,176,176,0.83);
+    transition: 0.4s;
+
+
+}
+/* --------------Create another section ------------ */
+.container-3{
+    display: flex;
+    margin-left: 5%;
+    align-content: center;
+    width: 300px;
+    /* box-shadow: 9px 2px 15px 0px rgba(176,176,176,0.83); */
+    text-align: start;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.row2{
+    align-items: center;
+    margin-left: 50px;
+    box-shadow: 9px 2px 15px 0px rgba(176,176,176,0.83);
+}
+/* footer */
+footer{
+    background-color: antiquewhite;
+    padding: 30px;
+    margin-bottom: -20px;
+    
+}
